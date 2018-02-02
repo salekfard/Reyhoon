@@ -42,6 +42,7 @@ class RESTfulManager: NSObject {
             
             if let value = response.result.value {
                 success(value);
+                return;
                 //You can use this to responseJSON
                 /*do {
                     let dataSerialization = try JSONSerialization.data(withJSONObject: value, options: []);

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF2181E62024E94E00D2980E /* MainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2181E52024E94E00D2980E /* MainCollectionViewCell.swift */; };
 		CF7013F620244C4D0022C7F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7013F520244C4D0022C7F2 /* AppDelegate.swift */; };
 		CF7013FB20244C4D0022C7F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF7013F920244C4D0022C7F2 /* Main.storyboard */; };
 		CF7013FD20244C4D0022C7F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF7013FC20244C4D0022C7F2 /* Assets.xcassets */; };
@@ -41,6 +42,7 @@
 
 /* Begin PBXFileReference section */
 		9C33D36A6929934A2B2F5BD8 /* Pods-Reyhoon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reyhoon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Reyhoon/Pods-Reyhoon.debug.xcconfig"; sourceTree = "<group>"; };
+		CF2181E52024E94E00D2980E /* MainCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCollectionViewCell.swift; sourceTree = "<group>"; };
 		CF7013F220244C4D0022C7F2 /* Reyhoon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reyhoon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF7013F520244C4D0022C7F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF7013FA20244C4D0022C7F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -232,6 +234,7 @@
 			isa = PBXGroup;
 			children = (
 				CF701428202451AA0022C7F2 /* MainViewController.swift */,
+				CF2181E52024E94E00D2980E /* MainCollectionViewCell.swift */,
 			);
 			path = MainViewController;
 			sourceTree = "<group>";
@@ -440,6 +443,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF2181E62024E94E00D2980E /* MainCollectionViewCell.swift in Sources */,
 				CF7014382024E4700022C7F2 /* AlertHelper.swift in Sources */,
 				CF701436202464B90022C7F2 /* Response_Coordinates.swift in Sources */,
 				CF7013F620244C4D0022C7F2 /* AppDelegate.swift in Sources */,
