@@ -15,6 +15,7 @@
 		CF70141620244C4D0022C7F2 /* ReyhoonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF70141520244C4D0022C7F2 /* ReyhoonUITests.swift */; };
 		CF701424202451060022C7F2 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = CF701423202451060022C7F2 /* Podfile */; };
 		CF701429202451AA0022C7F2 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF701428202451AA0022C7F2 /* MainViewController.swift */; };
+		CF7014302024553A0022C7F2 /* RESTfulManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF70142F2024553A0022C7F2 /* RESTfulManager.swift */; };
 		EEF2076ECEA5E6A591D0D01C /* Pods_Reyhoon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEE9F98BD217314A8DB03D86 /* Pods_Reyhoon.framework */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +52,7 @@
 		CF70141720244C4D0022C7F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF701423202451060022C7F2 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CF701428202451AA0022C7F2 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		CF70142F2024553A0022C7F2 /* RESTfulManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RESTfulManager.swift; sourceTree = "<group>"; };
 		D01250691505212F1F5BC1B7 /* Pods-Reyhoon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reyhoon.release.xcconfig"; path = "Pods/Target Support Files/Pods-Reyhoon/Pods-Reyhoon.release.xcconfig"; sourceTree = "<group>"; };
 		EEE9F98BD217314A8DB03D86 /* Pods_Reyhoon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Reyhoon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -124,6 +126,8 @@
 		CF7013F420244C4D0022C7F2 /* Reyhoon */ = {
 			isa = PBXGroup;
 			children = (
+				CF70142B202454EC0022C7F2 /* Resources */,
+				CF70142A202454E30022C7F2 /* Classes */,
 				CF7014252024515F0022C7F2 /* Model */,
 				CF701426202451660022C7F2 /* View */,
 				CF7014272024516B0022C7F2 /* Controller */,
@@ -174,6 +178,45 @@
 				CF701428202451AA0022C7F2 /* MainViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		CF70142A202454E30022C7F2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CF70142F2024553A0022C7F2 /* RESTfulManager.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CF70142B202454EC0022C7F2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CF70142C202454EC0022C7F2 /* Data */,
+				CF70142D202454EC0022C7F2 /* Images */,
+				CF70142E202454EC0022C7F2 /* Other */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CF70142C202454EC0022C7F2 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		CF70142D202454EC0022C7F2 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		CF70142E202454EC0022C7F2 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -372,6 +415,7 @@
 			files = (
 				CF7013F620244C4D0022C7F2 /* AppDelegate.swift in Sources */,
 				CF701429202451AA0022C7F2 /* MainViewController.swift in Sources */,
+				CF7014302024553A0022C7F2 /* RESTfulManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
