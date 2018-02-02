@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		CF2181E62024E94E00D2980E /* MainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2181E52024E94E00D2980E /* MainCollectionViewCell.swift */; };
+		CF2181E82024F16D00D2980E /* DistanceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2181E72024F16D00D2980E /* DistanceHelper.swift */; };
+		CF2181EA2024FD8400D2980E /* UIColor+Extend.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2181E92024FD8400D2980E /* UIColor+Extend.swift */; };
+		CF2181EC2025024200D2980E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF2181EB2025024200D2980E /* Localizable.strings */; };
 		CF7013F620244C4D0022C7F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7013F520244C4D0022C7F2 /* AppDelegate.swift */; };
 		CF7013FB20244C4D0022C7F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF7013F920244C4D0022C7F2 /* Main.storyboard */; };
 		CF7013FD20244C4D0022C7F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF7013FC20244C4D0022C7F2 /* Assets.xcassets */; };
@@ -43,6 +46,9 @@
 /* Begin PBXFileReference section */
 		9C33D36A6929934A2B2F5BD8 /* Pods-Reyhoon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reyhoon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Reyhoon/Pods-Reyhoon.debug.xcconfig"; sourceTree = "<group>"; };
 		CF2181E52024E94E00D2980E /* MainCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCollectionViewCell.swift; sourceTree = "<group>"; };
+		CF2181E72024F16D00D2980E /* DistanceHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceHelper.swift; sourceTree = "<group>"; };
+		CF2181E92024FD8400D2980E /* UIColor+Extend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extend.swift"; sourceTree = "<group>"; };
+		CF2181EB2025024200D2980E /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		CF7013F220244C4D0022C7F2 /* Reyhoon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reyhoon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF7013F520244C4D0022C7F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF7013FA20244C4D0022C7F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -195,6 +201,8 @@
 				CF701431202457F10022C7F2 /* ConstHelper.swift */,
 				CF70142F2024553A0022C7F2 /* RESTfulManager.swift */,
 				CF7014372024E4700022C7F2 /* AlertHelper.swift */,
+				CF2181E72024F16D00D2980E /* DistanceHelper.swift */,
+				CF2181E92024FD8400D2980E /* UIColor+Extend.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -212,6 +220,7 @@
 		CF70142C202454EC0022C7F2 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				CF2181EB2025024200D2980E /* Localizable.strings */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -357,6 +366,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF2181EC2025024200D2980E /* Localizable.strings in Resources */,
 				CF70140020244C4D0022C7F2 /* LaunchScreen.storyboard in Resources */,
 				CF7013FD20244C4D0022C7F2 /* Assets.xcassets in Resources */,
 				CF701424202451060022C7F2 /* Podfile in Resources */,
@@ -445,6 +455,8 @@
 			files = (
 				CF2181E62024E94E00D2980E /* MainCollectionViewCell.swift in Sources */,
 				CF7014382024E4700022C7F2 /* AlertHelper.swift in Sources */,
+				CF2181EA2024FD8400D2980E /* UIColor+Extend.swift in Sources */,
+				CF2181E82024F16D00D2980E /* DistanceHelper.swift in Sources */,
 				CF701436202464B90022C7F2 /* Response_Coordinates.swift in Sources */,
 				CF7013F620244C4D0022C7F2 /* AppDelegate.swift in Sources */,
 				CF701429202451AA0022C7F2 /* MainViewController.swift in Sources */,

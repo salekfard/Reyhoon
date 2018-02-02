@@ -20,6 +20,7 @@ class MainViewController: UIViewController , UICollectionViewDataSource , UIColl
         
         self.collectionSelf.dataSource = self;
         self.collectionSelf.delegate = self;
+        self.collectionSelf.transform = CGAffineTransform(scaleX: -1, y: 1);
         
         self.getData();
     }
@@ -34,8 +35,27 @@ class MainViewController: UIViewController , UICollectionViewDataSource , UIColl
         arrayCollection = [Response_Coordinates_branches]();
     }
     
+    func hideWaitingView()
+    {
+        DispatchQueue.main.async {
+            self.view.hideActivityViewWith(afterDelay: 0.5);
+        }
+    }
+    
     func getData()
     {
+        func showAlert(_ strMessage : String)
+        {
+            AlertHelper.show(viewController: self, Title: NSLocalizedString("SystemMessage", comment: ""), message: strMessage, actions: [AlertActionCustom(title: NSLocalizedString("Retry", comment: ""), style: UIAlertActionStyle.default)])
+            {
+                action in
+                self.reloadAllData();
+                self.getData();
+            }
+        }
+        
+        self.view.showActivityView();
+        
         RESTfulManager.sendDefaultRequest(HttpMethod: .get, Url: GENERAL_URL_SERVICES+"/public-api/v1/listings/by-coordinates?lng=51.409954&lat=35.757540", TimeOut: GENERAL_SERVICES_TIME_OUT, withSuccess: {(response) in
             
             let responseEntity = Response_Coordinates(JSONString: response!);
@@ -50,31 +70,33 @@ class MainViewController: UIViewController , UICollectionViewDataSource , UIColl
                     
                     self.collectionSelf.reloadData();
                 }
-            }
-            
-        }, andFailure: { (error) in
-            
-            func showAlert(_ strMessage : String)
-            {
-                AlertHelper.show(viewController: self, Title: "System Message", message: strMessage, actions: [AlertActionCustom(title: "Retry", style: UIAlertActionStyle.default)])
+                else
                 {
-                    action in
-                    self.reloadAllData();
-                    self.getData();
+                    showAlert(NSLocalizedString("NoResult", comment: ""));
                 }
             }
+            else
+            {
+                showAlert(NSLocalizedString("Error.Problem", comment: ""));
+            }
+            
+            self.hideWaitingView();
+            
+        }, andFailure: { (error) in
             
             if (error != nil)
             {
                 let nsError = error! as NSError;
                 if (nsError.code == -1008 || nsError.code == -1009)
                 {
-                    showAlert("Check Your Connection");
+                    showAlert(NSLocalizedString("Error.Connection", comment: ""));
+                    self.hideWaitingView();
                     return;
                 }
             }
             
-            showAlert("We Have a problem :(");
+            showAlert(NSLocalizedString("Error.Problem", comment: ""));
+            self.hideWaitingView();
         })
     }
     
@@ -96,7 +118,8 @@ class MainViewController: UIViewController , UICollectionViewDataSource , UIColl
         
         cell.lblTitle.text = dic.name_fa;
         
-        cell.lblDistance.text = "\(dic.distance)";
+        cell.lblDistance.text = dic.distanceDescription;
+        cell.lblDistance.backgroundColor = dic.distanceColor;
         
         return cell;
     }

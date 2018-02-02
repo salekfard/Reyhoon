@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  Reyhoon
+
+  Created by Ali Salekfard on 2/3/18.
+  Copyright © 2018 Ali Salekfard. All rights reserved.
+*/
+
+"Error.Connection" = "Check your internet connection";
+"Error.Problem" = "We have a problem :(";
+"NoResult" = "We don't have any result :(";
+"Retry" = "Retry";
+"SystemMessage" = "System Message";

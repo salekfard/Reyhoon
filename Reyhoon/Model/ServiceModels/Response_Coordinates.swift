@@ -31,6 +31,10 @@ class Response_Coordinates_branches: Mappable {
     var name_fa : String = "";
     var distance : Double = 0.0;
     
+    //These are don't have to be mapping func for mapping proccess
+    var distanceDescription : String = "";
+    var distanceColor : UIColor = COLOR_NEAR;
+    
     init() {
     }
     
@@ -42,6 +46,10 @@ class Response_Coordinates_branches: Mappable {
         id          <- map["id"]
         name_fa     <- map["name_fa"]
         distance    <- map["distance"]
+        
+        let distanceHelper = DistanceHelper(meter: self.distance);
+        distanceDescription = distanceHelper.getDescription();
+        distanceColor = distanceHelper.getColor();
     }
     
     static func getNearest(branches : [Response_Coordinates_branches] , count : Int) -> [Response_Coordinates_branches]
