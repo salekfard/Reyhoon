@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF7013F620244C4D0022C7F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7013F520244C4D0022C7F2 /* AppDelegate.swift */; };
+		CF7013F820244C4D0022C7F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7013F720244C4D0022C7F2 /* ViewController.swift */; };
+		CF7013FB20244C4D0022C7F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF7013F920244C4D0022C7F2 /* Main.storyboard */; };
+		CF7013FD20244C4D0022C7F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF7013FC20244C4D0022C7F2 /* Assets.xcassets */; };
+		CF70140020244C4D0022C7F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF7013FE20244C4D0022C7F2 /* LaunchScreen.storyboard */; };
+		CF70140B20244C4D0022C7F2 /* ReyhoonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF70140A20244C4D0022C7F2 /* ReyhoonTests.swift */; };
+		CF70141620244C4D0022C7F2 /* ReyhoonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF70141520244C4D0022C7F2 /* ReyhoonUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF70140720244C4D0022C7F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF7013EA20244C4D0022C7F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF7013F120244C4D0022C7F2;
+			remoteInfo = Reyhoon;
+		};
+		CF70141220244C4D0022C7F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF7013EA20244C4D0022C7F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF7013F120244C4D0022C7F2;
+			remoteInfo = Reyhoon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF7013F220244C4D0022C7F2 /* Reyhoon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reyhoon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF7013F520244C4D0022C7F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF7013F720244C4D0022C7F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CF7013FA20244C4D0022C7F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF7013FC20244C4D0022C7F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF7013FF20244C4D0022C7F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF70140120244C4D0022C7F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF70140620244C4D0022C7F2 /* ReyhoonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReyhoonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF70140A20244C4D0022C7F2 /* ReyhoonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReyhoonTests.swift; sourceTree = "<group>"; };
+		CF70140C20244C4D0022C7F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF70141120244C4D0022C7F2 /* ReyhoonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReyhoonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF70141520244C4D0022C7F2 /* ReyhoonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReyhoonUITests.swift; sourceTree = "<group>"; };
+		CF70141720244C4D0022C7F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF7013EF20244C4D0022C7F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF70140320244C4D0022C7F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF70140E20244C4D0022C7F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF7013E920244C4D0022C7F2 = {
+			isa = PBXGroup;
+			children = (
+				CF7013F420244C4D0022C7F2 /* Reyhoon */,
+				CF70140920244C4D0022C7F2 /* ReyhoonTests */,
+				CF70141420244C4D0022C7F2 /* ReyhoonUITests */,
+				CF7013F320244C4D0022C7F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF7013F320244C4D0022C7F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF7013F220244C4D0022C7F2 /* Reyhoon.app */,
+				CF70140620244C4D0022C7F2 /* ReyhoonTests.xctest */,
+				CF70141120244C4D0022C7F2 /* ReyhoonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF7013F420244C4D0022C7F2 /* Reyhoon */ = {
+			isa = PBXGroup;
+			children = (
+				CF7013F520244C4D0022C7F2 /* AppDelegate.swift */,
+				CF7013F720244C4D0022C7F2 /* ViewController.swift */,
+				CF7013F920244C4D0022C7F2 /* Main.storyboard */,
+				CF7013FC20244C4D0022C7F2 /* Assets.xcassets */,
+				CF7013FE20244C4D0022C7F2 /* LaunchScreen.storyboard */,
+				CF70140120244C4D0022C7F2 /* Info.plist */,
+			);
+			path = Reyhoon;
+			sourceTree = "<group>";
+		};
+		CF70140920244C4D0022C7F2 /* ReyhoonTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF70140A20244C4D0022C7F2 /* ReyhoonTests.swift */,
+				CF70140C20244C4D0022C7F2 /* Info.plist */,
+			);
+			path = ReyhoonTests;
+			sourceTree = "<group>";
+		};
+		CF70141420244C4D0022C7F2 /* ReyhoonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF70141520244C4D0022C7F2 /* ReyhoonUITests.swift */,
+				CF70141720244C4D0022C7F2 /* Info.plist */,
+			);
+			path = ReyhoonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF7013F120244C4D0022C7F2 /* Reyhoon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF70141A20244C4D0022C7F2 /* Build configuration list for PBXNativeTarget "Reyhoon" */;
+			buildPhases = (
+				CF7013EE20244C4D0022C7F2 /* Sources */,
+				CF7013EF20244C4D0022C7F2 /* Frameworks */,
+				CF7013F020244C4D0022C7F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Reyhoon;
+			productName = Reyhoon;
+			productReference = CF7013F220244C4D0022C7F2 /* Reyhoon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF70140520244C4D0022C7F2 /* ReyhoonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF70141D20244C4D0022C7F2 /* Build configuration list for PBXNativeTarget "ReyhoonTests" */;
+			buildPhases = (
+				CF70140220244C4D0022C7F2 /* Sources */,
+				CF70140320244C4D0022C7F2 /* Frameworks */,
+				CF70140420244C4D0022C7F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF70140820244C4D0022C7F2 /* PBXTargetDependency */,
+			);
+			name = ReyhoonTests;
+			productName = ReyhoonTests;
+			productReference = CF70140620244C4D0022C7F2 /* ReyhoonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF70141020244C4D0022C7F2 /* ReyhoonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF70142020244C4D0022C7F2 /* Build configuration list for PBXNativeTarget "ReyhoonUITests" */;
+			buildPhases = (
+				CF70140D20244C4D0022C7F2 /* Sources */,
+				CF70140E20244C4D0022C7F2 /* Frameworks */,
+				CF70140F20244C4D0022C7F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF70141320244C4D0022C7F2 /* PBXTargetDependency */,
+			);
+			name = ReyhoonUITests;
+			productName = ReyhoonUITests;
+			productReference = CF70141120244C4D0022C7F2 /* ReyhoonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF7013EA20244C4D0022C7F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Ali Salekfard";
+				TargetAttributes = {
+					CF7013F120244C4D0022C7F2 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					CF70140520244C4D0022C7F2 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CF7013F120244C4D0022C7F2;
+					};
+					CF70141020244C4D0022C7F2 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CF7013F120244C4D0022C7F2;
+					};
+				};
+			};
+			buildConfigurationList = CF7013ED20244C4D0022C7F2 /* Build configuration list for PBXProject "Reyhoon" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF7013E920244C4D0022C7F2;
+			productRefGroup = CF7013F320244C4D0022C7F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF7013F120244C4D0022C7F2 /* Reyhoon */,
+				CF70140520244C4D0022C7F2 /* ReyhoonTests */,
+				CF70141020244C4D0022C7F2 /* ReyhoonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF7013F020244C4D0022C7F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF70140020244C4D0022C7F2 /* LaunchScreen.storyboard in Resources */,
+				CF7013FD20244C4D0022C7F2 /* Assets.xcassets in Resources */,
+				CF7013FB20244C4D0022C7F2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF70140420244C4D0022C7F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF70140F20244C4D0022C7F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF7013EE20244C4D0022C7F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF7013F820244C4D0022C7F2 /* ViewController.swift in Sources */,
+				CF7013F620244C4D0022C7F2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF70140220244C4D0022C7F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF70140B20244C4D0022C7F2 /* ReyhoonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF70140D20244C4D0022C7F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF70141620244C4D0022C7F2 /* ReyhoonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF70140820244C4D0022C7F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF7013F120244C4D0022C7F2 /* Reyhoon */;
+			targetProxy = CF70140720244C4D0022C7F2 /* PBXContainerItemProxy */;
+		};
+		CF70141320244C4D0022C7F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF7013F120244C4D0022C7F2 /* Reyhoon */;
+			targetProxy = CF70141220244C4D0022C7F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF7013F920244C4D0022C7F2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF7013FA20244C4D0022C7F2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF7013FE20244C4D0022C7F2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF7013FF20244C4D0022C7F2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF70141820244C4D0022C7F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF70141920244C4D0022C7F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF70141B20244C4D0022C7F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Reyhoon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ir.salekfard.Reyhoon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF70141C20244C4D0022C7F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Reyhoon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ir.salekfard.Reyhoon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CF70141E20244C4D0022C7F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ReyhoonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ir.salekfard.ReyhoonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Reyhoon.app/Reyhoon";
+			};
+			name = Debug;
+		};
+		CF70141F20244C4D0022C7F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ReyhoonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ir.salekfard.ReyhoonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Reyhoon.app/Reyhoon";
+			};
+			name = Release;
+		};
+		CF70142120244C4D0022C7F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ReyhoonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ir.salekfard.ReyhoonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Reyhoon;
+			};
+			name = Debug;
+		};
+		CF70142220244C4D0022C7F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ReyhoonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ir.salekfard.ReyhoonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Reyhoon;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF7013ED20244C4D0022C7F2 /* Build configuration list for PBXProject "Reyhoon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF70141820244C4D0022C7F2 /* Debug */,
+				CF70141920244C4D0022C7F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF70141A20244C4D0022C7F2 /* Build configuration list for PBXNativeTarget "Reyhoon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF70141B20244C4D0022C7F2 /* Debug */,
+				CF70141C20244C4D0022C7F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF70141D20244C4D0022C7F2 /* Build configuration list for PBXNativeTarget "ReyhoonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF70141E20244C4D0022C7F2 /* Debug */,
+				CF70141F20244C4D0022C7F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF70142020244C4D0022C7F2 /* Build configuration list for PBXNativeTarget "ReyhoonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF70142120244C4D0022C7F2 /* Debug */,
+				CF70142220244C4D0022C7F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF7013EA20244C4D0022C7F2 /* Project object */;
+}
