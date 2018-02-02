@@ -7,4 +7,5 @@ xcodeproj 'Reyhoon.xcodeproj'
 target "Reyhoon" do
     pod 'ObjectMapper'
     pod 'Alamofire'
+    pod 'RNActivityView'
 end

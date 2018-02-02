@@ -1,15 +1,18 @@
 PODS:
   - Alamofire (4.5.1)
   - ObjectMapper (3.1.0)
+  - RNActivityView (0.0.7)
 
 DEPENDENCIES:
   - Alamofire
   - ObjectMapper
+  - RNActivityView
 
 SPEC CHECKSUMS:
   Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
   ObjectMapper: 20505058f54e5c3ca69e1d6de9897d152a5369a6
+  RNActivityView: d1bde2ec4956ad8f69da9650afe7898311221a8e
 
-PODFILE CHECKSUM: af095bd0b7fc8b4042b460d2725eea09a59e79b4
+PODFILE CHECKSUM: bb75055f831921be2a5519da61ec8ab7bebba2f3
 
 COCOAPODS: 1.3.1
