@@ -17,6 +17,7 @@
 		CF701429202451AA0022C7F2 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF701428202451AA0022C7F2 /* MainViewController.swift */; };
 		CF7014302024553A0022C7F2 /* RESTfulManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF70142F2024553A0022C7F2 /* RESTfulManager.swift */; };
 		CF701432202457F10022C7F2 /* ConstHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF701431202457F10022C7F2 /* ConstHelper.swift */; };
+		CF701436202464B90022C7F2 /* Response_Coordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF701435202464B90022C7F2 /* Response_Coordinates.swift */; };
 		EEF2076ECEA5E6A591D0D01C /* Pods_Reyhoon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEE9F98BD217314A8DB03D86 /* Pods_Reyhoon.framework */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +56,7 @@
 		CF701428202451AA0022C7F2 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		CF70142F2024553A0022C7F2 /* RESTfulManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RESTfulManager.swift; sourceTree = "<group>"; };
 		CF701431202457F10022C7F2 /* ConstHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstHelper.swift; sourceTree = "<group>"; };
+		CF701435202464B90022C7F2 /* Response_Coordinates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response_Coordinates.swift; sourceTree = "<group>"; };
 		D01250691505212F1F5BC1B7 /* Pods-Reyhoon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reyhoon.release.xcconfig"; path = "Pods/Target Support Files/Pods-Reyhoon/Pods-Reyhoon.release.xcconfig"; sourceTree = "<group>"; };
 		EEE9F98BD217314A8DB03D86 /* Pods_Reyhoon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Reyhoon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -163,6 +165,7 @@
 		CF7014252024515F0022C7F2 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				CF701434202464690022C7F2 /* ServiceModels */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -228,6 +231,14 @@
 				CF701428202451AA0022C7F2 /* MainViewController.swift */,
 			);
 			path = MainViewController;
+			sourceTree = "<group>";
+		};
+		CF701434202464690022C7F2 /* ServiceModels */ = {
+			isa = PBXGroup;
+			children = (
+				CF701435202464B90022C7F2 /* Response_Coordinates.swift */,
+			);
+			path = ServiceModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -424,6 +435,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF701436202464B90022C7F2 /* Response_Coordinates.swift in Sources */,
 				CF7013F620244C4D0022C7F2 /* AppDelegate.swift in Sources */,
 				CF701429202451AA0022C7F2 /* MainViewController.swift in Sources */,
 				CF7014302024553A0022C7F2 /* RESTfulManager.swift in Sources */,

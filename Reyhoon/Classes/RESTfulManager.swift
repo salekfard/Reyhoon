@@ -8,12 +8,14 @@
 
 import UIKit
 import Alamofire
+import ObjectMapper
 
 class RESTfulManager: NSObject {
     
-    static func sendDefaultRequest(HttpMethod httpMethod : HTTPMethod , Url strUrl : String , PostString strPost : String? , TimeOut intTimeOut : Int , Authorization isAuthorization : Bool = false, Cashe isCache : Bool = false , withSuccess success:@escaping (_ response: Any?) -> (), andFailure failure:@escaping (_ error: Error?) -> ()) {
+    static func sendDefaultRequest(HttpMethod httpMethod : HTTPMethod , Url strUrl : String , PostString strPost : String? = nil , TimeOut intTimeOut : Int , Authorization isAuthorization : Bool = false, Cashe isCache : Bool = false , withSuccess success:@escaping (_ response: String?) -> (), andFailure failure:@escaping (_ error: Error?) -> ()) {
         
         var request = URLRequest(url: URL(string: strUrl)!);
+        
         request.httpMethod = httpMethod.rawValue;
         request.setValue("application/json", forHTTPHeaderField: "Content-Type");
         request.setValue("application/json", forHTTPHeaderField: "Accept");
@@ -29,17 +31,31 @@ class RESTfulManager: NSObject {
             }
         }
         
-        Alamofire.request(request as URLRequestConvertible).validate().responseJSON {
-            response in
-            
+        Alamofire.request(request as URLRequestConvertible).validate().responseString
+            {
+                response in
+                
             guard response.result.isSuccess else {
                 failure(response.result.error)
-                return
+                return;
             }
             
             if let value = response.result.value {
-                success(value)
+                success(value);
+                //You can use this to responseJSON
+                /*do {
+                    let dataSerialization = try JSONSerialization.data(withJSONObject: value, options: []);
+                    if let stringData = NSString(data: dataSerialization, encoding: String.Encoding.utf8.rawValue)
+                    {
+                        success(stringData as String);
+                    }
+                } catch let error{
+                    failure(error);
+                    return;
+                }*/
             }
+            
+            failure(nil);
         }
     }
 }

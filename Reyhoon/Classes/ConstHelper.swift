@@ -11,6 +11,7 @@ import UIKit
 let IS_IPAD = (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiom.pad);
 
 let GENERAL_URL_SERVICES : String = "http://stage.reyhoon.com";
+let GENERAL_SERVICES_TIME_OUT : Int = 15;
 
 class ConstHelper: NSObject {
 
