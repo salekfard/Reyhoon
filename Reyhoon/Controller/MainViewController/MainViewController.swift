@@ -23,6 +23,12 @@ class MainViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    func reloadAllData()
+    {
+        arrayCollection = [Response_Coordinates_branches]();
+        
+    }
+    
     func getData()
     {
         RESTfulManager.sendDefaultRequest(HttpMethod: .get, Url: GENERAL_URL_SERVICES+"/public-api/v1/listings/by-coordinates?lng=51.409954&lat=35.757540", TimeOut: GENERAL_SERVICES_TIME_OUT, withSuccess: {(response) in
@@ -43,7 +49,12 @@ class MainViewController: UIViewController {
                 let nsError = error! as NSError;
                 if (nsError.code == -1008 || nsError.code == -1009)
                 {
-                    
+                    AlertHelper.show(viewController: self, Title: "System Message", message: "Check Your Connection", actions: [AlertActionCustom(title: "Retry", style: UIAlertActionStyle.default)])
+                    {
+                        action in
+                        self.reloadAllData();
+                        self.getData();
+                    }
                 }
             }
         })
